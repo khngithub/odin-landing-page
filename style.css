@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;    
+}
+
+/* Header */
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header-top {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.header-content {
+    display: flex;
+}
+
+.header-content-left {
+    flex: 1;
+}
+
+.header-content-right {
+    flex: 1;
+    background-color: grey;
+}
+
+/* Info */
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-title {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+/* Quote */
+
+.quote {
+    background-color: lightgrey;
+}
+
+/* Sign-up */
+.sign-up {
+    display: flex;
+}
+
+/* Footer */
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+}
