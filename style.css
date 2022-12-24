@@ -4,7 +4,7 @@
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow: scroll;
     font-family: Roboto, sans-serif;
   
     display: flex;
@@ -152,6 +152,22 @@ img {
 
 .quote {
     background-color: lightgrey;
+    padding: 64px 280px;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px; 
+    min-width: 680px;
+}
+
+.quote-author {
+    font-weight: bold;
+    font-size: 18px;
+    min-width: 680px;
+    text-align: end;
+    margin-top: 24px;
 }
 
 /* Sign-up */
