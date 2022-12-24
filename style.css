@@ -171,8 +171,28 @@ img {
 }
 
 /* Sign-up */
+.sign-up-container {
+    padding: 60px 200px;
+}
+
 .sign-up {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 18px 36px;
+    min-width: 760px;
+
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-txt {
+    color: #F9FAF8;
+}
+
+.sign-up > button {
+    color: #F9FAF8;
+    border-color: #F9FAF8;
 }
 
 /* Footer */
